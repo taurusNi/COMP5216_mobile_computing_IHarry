@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="popWindow_style">
+        <item name="android:windowEnterAnimation">@anim/pop_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_toptobottom_out</item>
+    </style>
+    <style name="popWindow_style2">
+        <item name="android:windowEnterAnimation">@anim/pop2_fromtop</item>
+        <item name="android:windowExitAnimation">@anim/pop2_gobacktop</item>
+
+    </style>
+    <!--<style name="checkButton" parent="@android:style/Widget.CompoundButton">-->
+        <!--<item name="android:button">@drawable/check_button</item>-->
+    <!--</style>-->
+    <style name="activityTheme" parent="Base.Theme.AppCompat">
+            <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="MainActivityTheme" parent="Base.Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+
+
+</resources>

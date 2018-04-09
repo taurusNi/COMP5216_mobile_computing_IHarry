@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="@drawable/line">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPopwindow">
+        <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/LightseekBar"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="light"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/lightText"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="low"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/lightText"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="high"
+            android:layout_marginLeft="240dp"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/textView9"
+            android:layout_toRightOf="@+id/LightseekBar"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/LightseekBar"
+            android:layout_alignStart="@+id/LightseekBar" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPopwindow">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="night schema"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/nightschema"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="off"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/t1111"
+            android:layout_marginLeft="210dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/t222222"
+            android:layout_marginLeft="280dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPoptext"
+        android:id="@+id/switchForNight"
+            android:checked="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="86dp"
+            android:layout_marginEnd="86dp" />
+
+    </RelativeLayout>
+    
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/colorPopwindow"-->
+        <!--xmlns:myc="http://schemas.android.com/apk/res-auto">-->
+        <!---->
+        <!--<com.taurus.iharry.database.MySwitchButton-->
+            <!--android:id="@+id/mySwitchButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--myc:bg_bitmap="@drawable/bg"-->
+            <!--myc:btn_bitmap="@drawable/btn"-->
+            <!--myc:textSize_ab="15sp"-->
+            <!--myc:textOn="On"-->
+            <!--myc:textOff="Off"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_centerHorizontal="true"/>-->
+        <!---->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>
+

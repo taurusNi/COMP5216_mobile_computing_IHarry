@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.taurus.iharry.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="IHarry"
+            android:id="@+id/AppName"
+            android:textSize="65px"
+            android:layout_marginTop="25px"
+            android:textStyle="normal"
+            android:textColor="#000012"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry1"
+            android:clickable="true"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/harry1"
+            android:layout_below="@+id/AppName" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry2"
+            android:layout_alignTop="@+id/Harry1"
+            android:background="@drawable/harry2"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry3"
+            android:background="@drawable/harry3"
+            android:layout_marginRight="40dp"
+            android:layout_alignTop="@+id/Harry2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry4"
+            android:background="@drawable/harry4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="263dp"  />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry5"
+            android:background="@drawable/harry5"
+            android:layout_alignTop="@+id/Harry4"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry6"
+            android:background="@drawable/harry6"
+            android:layout_alignTop="@+id/Harry4"
+            android:layout_alignLeft="@+id/Harry3"
+            android:layout_alignStart="@+id/Harry3" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry7"
+            android:background="@drawable/harry7"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="120dp"
+            android:id="@+id/Harry8"
+            android:background="@drawable/harry8"
+            android:layout_alignTop="@+id/Harry7"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

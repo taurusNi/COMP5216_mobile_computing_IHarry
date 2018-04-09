@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IHarry</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="content">NewView</string>
+    <string name="contentForFiction">content</string>
+    <string name="changeTheLight">light</string>
+    <string name="fontForFiction">font</string>
+</resources>

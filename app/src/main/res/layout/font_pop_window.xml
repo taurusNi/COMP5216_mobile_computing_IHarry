@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="@drawable/line">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPopwindow"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="font"
+            android:textSize="15dp"
+            android:textColor="#f4ebeb"
+            android:id="@+id/textView"
+            android:layout_marginLeft="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton_bigger"
+            android:background="@drawable/add"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="245dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/minus"
+            android:id="@+id/imageButton_smaller"
+            android:layout_centerVertical="true"
+            android:layout_alignTop="@+id/imageButton_bigger"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPopwindow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="background"
+            android:textSize="15dp"
+            android:textColor="#f4ebeb"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/originalColor"
+            android:background="@drawable/background_button3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/change1"
+            android:background="@drawable/background_button2"
+            android:layout_alignTop="@+id/originalColor"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/originalColor"
+            android:layout_toEndOf="@+id/originalColor" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/change2"
+            android:background="@drawable/background_button"
+            android:layout_marginLeft="30dp"
+            android:layout_alignTop="@+id/originalColor"
+            android:layout_toRightOf="@+id/change1"
+            android:layout_toEndOf="@+id/change1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <!--FFE4B5-->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFF8DC</color>
+    <color name="colorPopwindow">#706d6d</color>
+    <color name="colorPoptext">#e4dede</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="textColor">#000000</color>
+    <color name="nightColor">#424952</color>
+    <color name="nightBackgroundColor">#080C10</color>
+</resources>

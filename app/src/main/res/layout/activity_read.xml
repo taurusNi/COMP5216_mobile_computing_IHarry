@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.taurus.iharry.sliding.PageMoveLayout
+        android:id="@+id/page_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.taurus.iharry.sliding.PageMoveLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/colorBackground"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:paddingStart="5dp"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:paddingRight="5dp"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16sp"-->
+        <!--android:visibility="visible" />-->
+
+    <!--<View-->
+        <!--android:layout_width="5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#FFFF00"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="25sp"-->
+        <!--android:visibility="visible" />-->
+</LinearLayout>

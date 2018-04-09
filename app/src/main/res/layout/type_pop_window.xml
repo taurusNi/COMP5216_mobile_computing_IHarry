@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/cornsilk"
+        android:alpha="0.9">
+        <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TypeseekBar"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="speed"
+            android:textColor="#000000"
+            android:id="@+id/sppedText"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0s"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/sppedText"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1s"
+            android:textColor="#000000"
+            android:layout_marginLeft="240dp"
+            android:id="@+id/textView9"
+            android:layout_toRightOf="@+id/TypeseekBar"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/TypeseekBar"
+            android:layout_alignStart="@+id/TypeseekBar" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/cornsilk"
+        android:alpha="0.9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type schema"
+            android:textColor="#000000"
+            android:id="@+id/typeschema"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="off"
+        android:textColor="#000000"
+        android:id="@+id/textView11111"
+        android:layout_marginLeft="210dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on"
+            android:textColor="#000000"
+            android:id="@+id/textView22222"
+            android:layout_marginLeft="280dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPoptext"
+            android:id="@+id/switchForTpye"
+            android:checked="false"
+            android:background="@color/cornsilk"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="86dp"
+            android:layout_marginEnd="86dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
